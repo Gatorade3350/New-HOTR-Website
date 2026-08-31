@@ -23,18 +23,6 @@ nav a{margin-left:1rem;color:rgba(255,255,255,0.9);text-decoration:none}
 /* Wave styles */
 .wave-wrap{position:absolute;left:0;right:0;bottom:-1px;height:140px;pointer-events:none}
 .wave{display:block;width:100%;height:100%}
-.wave-fill{fill:#ffffff}
-.wave-fill-1{opacity:0.12;transform-origin:50% 50%;animation:wave-anim 10s linear infinite}
-.wave-fill-2{opacity:0.18;transform-origin:50% 50%;animation:wave-anim-rev 14s linear infinite}
-
-@keyframes wave-anim{
-  0%{transform:translateX(0) translateY(0) scaleX(1)}
-  50%{transform:translateX(-10%) translateY(4px) scaleX(1.02)}
-  100%{transform:translateX(0) translateY(0) scaleX(1)}
-}
-
-@keyframes wave-anim-rev{
-  0%{transform:translateX(0) translateY(0) scaleX(1)}
-  50%{transform:translateX(8%) translateY(-3px) scaleX(0.98)}
-  100%{transform:translateX(0) translateY(0) scaleX(1)}
-}
+.wave-fill{fill:#000000}
+.wave-fill-1{opacity:0.12;transform-origin:50% 50%}
+.wave-fill-2{opacity:0.18;transform-origin:50% 50%}
